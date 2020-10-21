@@ -60,7 +60,7 @@ public class ContainerBookingServiceImpl implements ContainerBookingService {
 				containerBookingAvailabilityList.add(isAvaialable);
 			} else {
 				ContainerBookingAvailability isAvaialable = new ContainerBookingAvailability();
-				isAvaialable.setAvailable(true);
+				isAvaialable.setAvailable(false);
 				containerBookingAvailabilityList.add(isAvaialable);
 			}
 
