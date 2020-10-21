@@ -1,0 +1,7 @@
+server:
+   servlet:
+      context-path: /api/bookings/
+   availabilityUrl: https://maersk.com/api/bookings/checkAvailable
+
+
+   
